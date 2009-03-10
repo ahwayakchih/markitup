@@ -297,7 +297,7 @@ jQuery.noConflict();
 
 			$section_id = intval($temp[2]);
 
-			if (!preg_match_all('%<li>\s*<h4>Textarea</h4>(?:[\w\W]+) name=[\'"]fields\[(\d+)\]\[id\][\'"](?:[\w\W]+)</li>%iU', $ctx['output'], $textareas)) return;
+			if (!preg_match_all('%<li>\s*<h4>Textarea</h4>(?:[\w\W]+) name=[\'"]fields\[(\d+)\]\[id\][\'"](?:[\w\W]+) value=[\'"](\d+)[\'"](?:[\w\W]+)</li>%iU', $ctx['output'], $textareas)) return;
 
 			$sets = General::listStructure(EXTENSIONS.'/markitup/assets/markitup/sets', NULL, false, 'asc');
 			if (!$sets) return;
@@ -312,6 +312,7 @@ jQuery.noConflict();
 
 			for ($i = 0; $i < count($textareas[0]); $i++) {
 				$id = $textareas[1][$i];
+				$field_id = $textareas[2][$i];
 				$html = '<div class="group">';
 
 				if (preg_match('%<label><input name=[\'"]fields\['.$id.'\]\[required\][\'"](?:[\w\W]+)</label>%iU', $textareas[0][$i], $required)) {
@@ -321,7 +322,7 @@ jQuery.noConflict();
 				$value = $this->_Parent->Database->fetchVar('markup', 0, '
 					SELECT markup 
 					FROM tbl_markitup_fields 
-					WHERE field_id = '.$id.' AND section_id = '.$section_id
+					WHERE field_id = '.$field_id.' AND section_id = '.$section_id
 				);
 				$html .= '<label>markItUp! <select name="fields['.$id.'][markitup]">'.str_replace(' value="'.$value.'"', ' value="'.$value.'" selected="selected"', $options).'</select></label></div>';
 

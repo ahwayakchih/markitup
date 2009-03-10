@@ -10,7 +10,7 @@ Requirements: Symphony version 2.0.2 or later.
 [SYNOPSIS]
 
 This extension ports jQuery based markItUp! markup editor 
-(http://markitup.jaysalvat.com/) to Symphony.
+( http://markitup.jaysalvat.com/ ) to Symphony.
 It will add some basic buttons to every textarea field which is 
 configured to use one of supported formatters.
 
