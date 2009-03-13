@@ -8,7 +8,7 @@
 						 'author' => array('name' => 'Marcin Konicki',
 										   'website' => 'http://ahwayakchih.neoni.net',
 										   'email' => 'ahwayakchih@neoni.net'),
-						 'description' => 'Add some basic text editor buttons to every textarea that is using one of supported formatters.'
+						 'description' => __('Add some basic text editor buttons to every textarea that is using one of supported formatters.')
 			);
 		}
 
