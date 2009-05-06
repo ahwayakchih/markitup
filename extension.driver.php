@@ -203,12 +203,13 @@
 			if (!formatter[2]) return;
 			formatter = formatter[2];
 
-			var class = markItUpFormatters[formatter];
-			if (class != "default") {
-				myMarkItUpSettings[class].previewParserPath = "'.URL.'/symphony/extension/markitup/preview/"+formatter+"/";
-				myMarkItUpSettings[class].previewParserVar = "data";
+			var c = markItUpFormatters[formatter];
+			if (c != "default") {
+				myMarkItUpSettings[c].previewParserPath = "'.URL.'/symphony/extension/markitup/preview/"+formatter+"/";
+				myMarkItUpSettings[c].previewParserVar = "data";
 			}
-			$(this).markItUp(myMarkItUpSettings[class]);
+			$(this).markItUp(myMarkItUpSettings[c]);
+
 		});
 	});
 })(jQuery);
@@ -359,4 +360,4 @@ jQuery.noConflict();
 			return preg_replace($find, $rplc, $css);
 		}
 	}
-?>
+
