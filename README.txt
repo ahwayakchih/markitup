@@ -3,7 +3,7 @@ markItUp!
 ------------------------------------
 
 Version: 2.0
-Author: Nils Werner (http://ahwayakchih.neoni.net)
+Author: Marcin Konicki, Nils Werner
 Build Date: 25 January 2009
 Requirements: Symphony version 2.0.5 or later.
 
