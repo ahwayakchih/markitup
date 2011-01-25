@@ -44,12 +44,12 @@
 }
 
 .markItUp .a a {
-	background-image:url(images/link.png);
+	background-image:url(images/world_link.png);
 }
 
 .markItUp .blockquote a	{
-	background-image:url(images/quotes.png);
+	background-image:url(images/comments.png);
 }
 .markItUp .code a	{
-	background-image:url(images/code.png);
+	background-image:url(images/page_white_cplusplus.png);
 }
