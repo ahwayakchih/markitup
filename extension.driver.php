@@ -27,10 +27,8 @@
 			$page = $context['parent']->Page;
 
             $page->addScriptToHead(URL . '/extensions/markitup/assets/dist/markitup/jquery.markitup.js', 3466703);
-            $page->addScriptToHead(URL . '/extensions/markitup/assets/sets/markdown/set.js', 3466703);
+            $page->addStylesheetToHead(URL . '/extensions/markitup/assets/dist/markitup/skins/simple/style.css', 'screen', 3466701);
             $page->addScriptToHead(URL . '/extensions/markitup/assets/script.js', 3466703);
-			$page->addStylesheetToHead(URL . '/extensions/markitup/assets/dist/markitup/skins/simple/style.css', 'screen', 3466701);
-			$page->addStylesheetToHead(URL . '/extensions/markitup/assets/sets/markdown/style.css', 'screen', 3466701);
 			$page->addStylesheetToHead(URL . '/extensions/markitup/assets/style.css', 'screen', 3466702);
 		}
 	}
