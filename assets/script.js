@@ -14,9 +14,9 @@ mySettings = {
 		{name:'Bold', key:'B', className:'b', openWith:'**', closeWith:'**'},
 		{name:'Italic', key:'I', className:'i', openWith:'_', closeWith:'_'},
 		{separator:'---------------' },
-		{name:'Bulleted List', className:'ul', openWith:'- ' },
+		{name:'Bulleted List', className:'ul', openWith:'(!(  )!) - ' },
 		{name:'Numeric List', className:'ol', openWith:function(markItUp) {
-			return markItUp.line+'. ';
+			return '(!(  )!) '+markItUp.line+'. ';
 		}},
 		{separator:'---------------' },
 		{name:'Link', key:'L', className:'a', openWith:'[', closeWith:']([![Url:!:http://]!](!( "[![Title]!]")!))', placeHolder:'Your text to link here...' },
