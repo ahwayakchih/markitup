@@ -27,5 +27,8 @@ mySettings = {
 }
 
 jQuery(document).ready(function($) {
-	$('.markdown').markItUp(mySettings);
+	$('.markdown, .markdown_extra, .markdown_extra_with_smartypants, .markdown_with_purifier').each(function() {
+		if($(this).attr("rows") > 10)
+			$(this).markItUp(mySettings);
+	});
 });
