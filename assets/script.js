@@ -1,6 +1,8 @@
 mySettings = {
 	previewParserPath:	'',
-	onShiftEnter:		{keepDefault:false, openWith:'\n\n'},
+	onShiftEnter:	{keepDefault:false, openWith:'  \n'},
+	onCtrlEnter:	{keepDefault:false, openWith:'\n\n'},
+	onTab:			{keepDefault:false, openWith:'	'},
 	markupSet: [
 		{name:'First Level Heading', key:'1', placeHolder:'Your title here...', closeWith:function(markItUp) { return '\n' + Array(jQuery.trim(markItUp.selection||markItUp.placeHolder).length+1).join('=') } },
 		{name:'Second Level Heading', key:'2', placeHolder:'Your title here...', closeWith:function(markItUp) { return '\n' + Array(jQuery.trim(markItUp.selection||markItUp.placeHolder).length+1).join('-') } },
