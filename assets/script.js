@@ -1,5 +1,5 @@
 mySettings = {
-	previewParserPath:	'',
+	resizeHandle: false,
 	onShiftEnter:	{keepDefault:false, openWith:'  \n'},
 	onCtrlEnter:	{keepDefault:false, openWith:'\n\n'},
 	onTab:			{keepDefault:false, openWith:'	'},
