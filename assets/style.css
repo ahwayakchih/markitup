@@ -1,3 +1,11 @@
+.markItUp, .markItUpEditor {
+	width:100%;
+}
+
+.markItUp {
+	margin-right: 100px;
+}
+
 /* -------------------------------------------------------------------
 // markItUp!
 // By Jay Salvat - http://markitup.jaysalvat.com/
@@ -36,19 +44,12 @@
 }
 
 .markItUp .markItUpButton11 a {
-	background-image:url(images/picture.png); 
-}
-.markItUp .markItUpButton12 a {
 	background-image:url(images/link.png);
 }
 
-.markItUp .markItUpButton13 a	{
+.markItUp .markItUpButton12 a	{
 	background-image:url(images/quotes.png);
 }
-.markItUp .markItUpButton14 a	{
+.markItUp .markItUpButton13 a	{
 	background-image:url(images/code.png);
-}
-
-.markItUp .preview a {
-	background-image:url(images/preview.png);
 }
