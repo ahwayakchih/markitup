@@ -3,7 +3,7 @@
 
 		public function about(){
 			return array('name' => 'markItUp!',
-						 'version' => '1.1',
+						 'version' => '2.0',
 						 'release-date' => '2011-01-17',
 						 'author' => array('name' => 'Marcin Konicki, Nils Werner',
 										   'website' => 'http://ahwayakchih.neoni.net',
