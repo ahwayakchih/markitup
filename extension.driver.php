@@ -28,7 +28,7 @@
 
             $page->addScriptToHead(URL . '/extensions/markitup/assets/dist/markitup/jquery.markitup.js', 3466703);
             $page->addStylesheetToHead(URL . '/extensions/markitup/assets/dist/markitup/skins/simple/style.css', 'screen', 3466701);
-            $page->addScriptToHead(URL . '/extensions/markitup/assets/script.js', 3466703);
-			$page->addStylesheetToHead(URL . '/extensions/markitup/assets/style.css', 'screen', 3466702);
+            $page->addScriptToHead(URL . '/extensions/markitup/assets/markitup.publish.js', 3466703);
+			$page->addStylesheetToHead(URL . '/extensions/markitup/assets/markitup.publish.css', 'screen', 3466702);
 		}
 	}
