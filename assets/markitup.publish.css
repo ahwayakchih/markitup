@@ -1,0 +1,55 @@
+.markItUp, .markItUpEditor {
+	width:100%;
+}
+
+.markItUp {
+	margin-right: 100px;
+}
+
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp .h1 a {
+	background-image:url(images/h1.png); 
+}
+.markItUp .h2 a {
+	background-image:url(images/h2.png); 
+}
+.markItUp .h3 a {
+	background-image:url(images/h3.png); 
+}
+.markItUp .h4 a {
+	background-image:url(images/h4.png); 
+}
+.markItUp .h5 a {
+	background-image:url(images/h5.png); 
+}
+.markItUp .h6 a {
+	background-image:url(images/h6.png); 
+}
+
+.markItUp .b a {
+	background-image:url(images/bold.png);
+}
+.markItUp .i a {
+	background-image:url(images/italic.png);
+}
+
+.markItUp .ul a {
+	background-image:url(images/list-bullet.png);
+}
+.markItUp .ol a {
+	background-image:url(images/list-numeric.png);
+}
+
+.markItUp .a a {
+	background-image:url(images/world_link.png);
+}
+
+.markItUp .blockquote a	{
+	background-image:url(images/comments.png);
+}
+.markItUp .code a	{
+	background-image:url(images/page_white_cplusplus.png);
+}
